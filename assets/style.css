@@ -18,6 +18,7 @@
         .container {
         position:relative;
         background-color:#858585;
+        margin-left: 40px
         }
     }
 
@@ -26,6 +27,7 @@
         .container {
         position:relative;
         background-color:#858585;
+        margin-left: 20px
         }
     }
 
