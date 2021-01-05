@@ -48,25 +48,31 @@
         </div>
       </header>
     <article>
-      <!--text box for user to enter name-->
+      <!--text boxes for user to enter name and email-->
       <section class="row">
         <div class="col-md-9">
-
+          <form>
+            <div class="mb-3">
+              <label for="exampleInputName1" class="form-label">Name</label>
+              <input type="text" class="form-control" id="exampleInputName1" aria-describedby="nameHelp">
+              <div id="nameHelp" class="form-text">It's okay, don't be shy</div>
+            </div>
+            <div class="mb-3">
+              <label for="exampleInputEmail1" class="form-label">E-mail</label>
+              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <div id="emailHelp" class="form-text">I won't give your Email to anyone.</div>
+            </div>
+            <div class="mb-3 ">
+              <input type="text" class="form-control" id="exampleInputMessage1" aria-describedby="messageHelp">
+              <div id="messageHelp" class="form-text">What's weighing on you, partner?</div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
         </div>
         <div class="col-md-3">
 
         </div>
       </section>
-      <!--text box for user to enter their email-->
-      <section class="row">
-        <div class="col-md-9">
-          
-        </div>
-        <div class="col-md-3">
-
-        </div>
-      </section>
-
     </article>
 
     </main>
